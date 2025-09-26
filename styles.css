@@ -1,4 +1,5 @@
 :root {
+  --main-color: #444;
 }
 
 * {
@@ -6,41 +7,73 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #EEE
 }
 
-nav {
-	width: 100%;
-	height: 50px;
-	background-color: #444;
+html {
+  background-color: #111;
 }
 
 .flex-container {
 	display: flex;
 }
 
+/* ----Header---- */
+Header {
+	width: 100%;
+	height: 80px;
+	background-color: var(--main-color);
+  justify-content: space-between;
+}
+
+.logo h1{
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
+}
+
+.logo img{
+  width: 80px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav li a {
+  text-decoration: none;
+}
+
+/* ----Banner---- */
 .banner {
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	margin: 25px 0;
-	background-color: #444;
+	background-color: var(--main-color);
 }
 
+/* ----Option boxes---- */
 .options {
 	width: 90%;
-	height: 300px;
+	height: 400px;
 	margin: 25px auto;
-	background-color: #444;
+	background-color: var(--main-color);
 }
 
+/* ----Panels---- */
 .panels {
 	width: 90%;
-	height: 300px;
+	height: 400px;
 	margin: 25px auto;
-	background-color: #444;
+	background-color: var(--main-color);
 }
 
+/* ----Footer---- */
 footer {
 	width: 100%;
-	height: 50px;
-	background-color: #444;
+	height: 80px;
+	background-color: var(--main-color);
 }
