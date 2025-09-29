@@ -88,6 +88,15 @@ nav li a:hover {
 	height: 200px;
 	margin: 25px 0;
 	background-color: var(--main-color);
+  justify-content: center;
+  border-top: 3px dashed var(--text-color);
+  border-bottom: 3px dashed var(--text-color);
+}
+
+.banner-img {
+  object-position: center;
+  object-fit: cover;
+  width: 1900px;
 }
 
 /* ----Option boxes---- */
