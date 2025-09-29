@@ -107,7 +107,8 @@ nav li a:hover {
   font-size:xx-large;
   background-color: var(--main-color);
   padding: 15px;
-  border: 3px dashed var(--text-color)
+  border: 3px dashed var(--text-color);
+  text-align: center;
 }
 
 /* ----Option boxes---- */
@@ -120,6 +121,7 @@ nav li a:hover {
   align-items: center;
   border-top: 3px dashed var(--text-color);
   border-bottom: 3px dashed var(--text-color);
+  flex: 0 2 auto;
 }
 
 .options img {
@@ -155,6 +157,7 @@ nav li a:hover {
 .img-container:hover .text-container {
   opacity: 1;
 }
+
 .img-txt{
   background-color: var(--background-color);
   border: 3px dashed var(--text-color);
