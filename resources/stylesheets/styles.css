@@ -204,6 +204,31 @@ nav li a:hover {
   border: 3px dashed var(--text-color);
 }
 
+/* ----About---- */
+.about {
+  flex-direction: row;
+  align-items: center;
+}
+
+article {
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+article h2 {
+  padding-bottom: 20px;
+}
+
+article p {
+  padding: 20px;
+  line-height: 20px;
+}
+
+.about-img {
+  width: 500px;
+}
+
 /* ----Footer---- */
 footer {
 	width: 100%;
@@ -212,6 +237,8 @@ footer {
   border-top: 3px dashed var(--text-color);
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  bottom: 0;
 }
 
 .footer-text-a {
