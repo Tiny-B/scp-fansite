@@ -38,13 +38,13 @@
 		<main>
 			<div class="info flex-container">
         <article class="info-text">
-          <h2>Emergency contact</h2>
+          <h2>Non Emergency Contact</h2>
           <p>Please use the form below to relay any relevant non priority information to the site director.</p>
           <p>Non priority information should be as detailed as possible to ensure the relevant parties acquire the information they need without further follow ups.</p>
           <p>For Priority Emergencies please contact your site director liaison office as soon as possible.</p>
         </article>
-        <div class="priority-list">
-          <h2>Priority Emergency criteria</h2>
+        <div class="priority-list flex-container">
+          <h2>Priority Emergency Criteria</h2>
           <ul>
             <li>Containment breaches</li>
             <li>Employee Death</li>
@@ -52,7 +52,25 @@
             <li>Breach of security</li>
             <li>Unauthorized access</li>
           </ul>
+          <p>If you are in one of these situations, contact your site director immediately!</p>
         </div>
+      </div>
+      <div class="contact flex-container">
+        <h2>Non Emergency Contact Form</h2>
+        <form action="POST" class="flex-container">
+          <div class="form-items flex-container">
+            <label for="name">Name: </label>
+            <label for="pos">Position: </label>
+            <label for="site">Current Site: </label>
+            <label for="mes">Message: </label>
+          </div>
+          <div class="form-items flex-container">
+            <input type="text" id="name">
+            <input type="text" id="pos">
+            <input type="text" id="site">
+            <textarea id="mes" name="mes" rows="5" cols="55">Message</textarea>
+          </div>
+        </form>
       </div>
 		</main>
 
