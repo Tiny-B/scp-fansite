@@ -222,8 +222,7 @@ article h2 {
 }
 
 article p {
-  padding: 20px;
-  line-height: 20px;
+  padding: 5px;
 }
 
 .about-img {
@@ -259,6 +258,30 @@ article p {
   width: 200px;
 }
 
+/* ----Info---- */
+.info {
+  margin: 20px 0;
+  justify-content: space-around;
+}
+
+.info-text {
+  width: 40%;
+  background-color: var(--main-color);
+}
+
+.priority-list {
+  width: 40%;
+  background-color: var(--main-color);
+}
+
+.priority-list ul {
+  list-style: none;
+}
+
+.priority-list ul li::before {
+  content: "▶ ";
+}
+
 /* ----Footer---- */
 footer {
 	width: 100%;
@@ -276,4 +299,16 @@ footer {
 }
 .footer-text-b {
   padding-right: 15px;
+}
+
+.footer-text-a::after {
+  content: ". Licensed under CC BY-SA";
+}
+
+.footer-text-a::before{
+  content: "© ";
+}
+
+.footer-text-b a:visited {
+  color: var(--accent-color);
 }
