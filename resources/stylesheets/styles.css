@@ -208,6 +208,7 @@ nav li a:hover {
 .about {
   flex-direction: row;
   align-items: center;
+  
 }
 
 article {
@@ -227,6 +228,35 @@ article p {
 
 .about-img {
   width: 500px;
+}
+
+.middle-article {
+  border-top: 3px dashed var(--text-color);
+  border-bottom: 3px dashed var(--text-color);
+}
+
+/* ----Alerts----- */
+.alert-container {
+  justify-content: center;
+}
+
+.alert {
+  background-color: var(--main-color);
+  width: 500px;
+  border-left: 3px dashed var(--text-color);
+  border-right: 3px dashed var(--text-color);
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.alert h2 {
+  margin-top: 20px;
+}
+
+.alert img {
+  width: 200px;
 }
 
 /* ----Footer---- */
