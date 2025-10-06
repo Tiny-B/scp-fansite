@@ -426,6 +426,10 @@ article p {
   cursor: pointer;
 }
 
+.mobile-form {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .info {
     flex-direction: column;
