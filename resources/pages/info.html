@@ -55,7 +55,7 @@
           <p>If you are in one of these situations, contact your site director immediately!</p>
         </div>
       </div>
-      <div class="contact flex-container">
+      <div class="contact flex-container desktop-form">
         <h2>Non Emergency Contact Form</h2>
         <form action="POST" class="flex-container">
           <div class="form-items flex-container">
@@ -70,6 +70,34 @@
             <input type="text" id="site" placeholder="Enter current location..." required>
             <textarea id="mes" name="mes" rows="5" cols="55" required>Message</textarea>
           </div>
+          <input type="submit" class="submit-btn" value="Send">
+        </form>
+      </div>
+
+      <div class="contact flex-container mobile-form">
+        <h2>Non Emergency Contact Form</h2>
+        <form action="POST" class="flex-container">
+            <div class="form-items">
+              <label for="name">Name: </label>
+              <input type="text" id="name" placeholder="Enter full name..." required>
+            </div>
+            
+            <div class="form-items">
+              <label for="pos">Position: </label>
+              <input type="text" id="pos" placeholder="Enter position held..." required>
+            </div>
+            
+            <div class="form-items">
+              <label for="site">Current Site: </label>
+              <input type="text" id="site" placeholder="Enter current location..." required>
+            </div>
+            
+            <div class="form-items">
+              <label for="mes">Message: </label>
+              <textarea id="mes" name="mes" rows="5" cols="20" required>Message</textarea>
+            </div>
+            
+          
           <input type="submit" class="submit-btn" value="Send">
         </form>
       </div>

@@ -426,6 +426,56 @@ article p {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .priority-list, .info-text {
+    width: 90%;
+  }
+
+  .priority-list {
+    gap: 20px
+  }
+
+  .priority-list h2 {
+    margin-top: 20px
+  }
+
+  .priority-list p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    height: fit-content;
+  }
+
+  .contact h2 {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .desktop-form {
+    display: none;
+  }
+
+  .mobile-form {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  form {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* ----Footer---- */
 footer {
 	width: 100%;
