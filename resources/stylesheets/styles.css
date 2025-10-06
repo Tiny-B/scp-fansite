@@ -30,10 +30,14 @@ Header {
   border-bottom: 3px dashed var(--text-color);
 }
 
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+
 .logo h1{
   width: fit-content;
   height: fit-content;
-  margin-top: 20px;
 }
 
 .logo img{
@@ -83,6 +87,26 @@ nav li a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .logo h1 {
+    display: none;
+  }
+
+  .logo img {
+    width: 60px;
+    height:max-content;
+  }
+
+  nav ul li {
+    font-size: 0.8rem;
+    border: 3px dashed var(--text-color);
+  }
+
+  .login {
+    display: none;
+  }
+}
+
 /* ----Banner---- */
 .banner {
 	width: 100%;
@@ -109,6 +133,12 @@ nav li a:hover {
   padding: 15px;
   border: 3px dashed var(--text-color);
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .banner h2 {
+    font-size: 1rem;
+  }
 }
 
 /* ----Option boxes---- */
@@ -166,6 +196,12 @@ nav li a:hover {
   padding: 16px 32px;
 }
 
+@media (max-width: 768px){
+  .options {
+    display: none;
+  }
+}
+
 /* ----Panels---- */
 .panels {
 	width: 90%;
@@ -202,6 +238,24 @@ nav li a:hover {
 
 .panel a:hover {
   border: 3px dashed var(--text-color);
+}
+
+@media (max-width:768px) {
+  .panels {
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .panel {
+    border-top: 3px dashed var(--text-color);
+    margin-bottom: 20px;
+  }
+
+  .panel a {
+    border: 3px dashed var(--text-color);
+  }
 }
 
 /* ----About---- */
@@ -370,4 +424,14 @@ footer {
 
 .footer-text-b a:visited {
   color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: block;
+  }
+
+  .footer-text-a, .footer-text-b {
+    font-size: 0.7rem;
+  }
 }
