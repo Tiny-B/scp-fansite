@@ -1,4 +1,4 @@
-#SCP fan site.
+# SCP fan site.
 
 ## Design.
 
@@ -16,3 +16,5 @@ i needed them to be.
 ### Live link to site
 
 [tiny-b.github.io/scp-fansite](https://tiny-b.github.io/scp-fansite/index.html)
+
+![Wireframe diagram](./resources/images/wireframe.png)
