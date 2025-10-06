@@ -17,4 +17,6 @@ i needed them to be.
 
 [tiny-b.github.io/scp-fansite](https://tiny-b.github.io/scp-fansite/index.html)
 
+### Wireframe
+
 ![Wireframe diagram](./resources/images/wireframe.png)
