@@ -288,6 +288,12 @@ article p {
   border-bottom: 3px dashed var(--text-color);
 }
 
+@media (max-width: 768px) {
+  .about-img {
+    display: none;
+  }
+}
+
 /* ----Alerts----- */
 .alert-container {
   justify-content: center;
@@ -310,6 +316,31 @@ article p {
 
 .alert img {
   width: 200px;
+}
+
+@media (max-width: 768px) {
+  .alerts {
+    flex-direction: column;
+    
+  }
+
+  .alert {
+    border-top: 3px dashed var(--text-color);
+    border-bottom: 3px dashed var(--text-color);
+  }
+
+  .alert img {
+    width: 100px;
+  }
+
+  .alert h2 {
+    font-size: 1.2rem;
+  }
+
+  .alert p {
+    font-size: 0.8rem;
+    padding: 30px;
+  }
 }
 
 /* ----Info---- */
